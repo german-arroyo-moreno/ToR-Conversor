@@ -1,0 +1,4 @@
+
+# Convertir un fichero a csv, ; = 59 (ASCII), " = 34 (ASCII), UTF8 = 76 (tabla de documentación, 0 = sistema), 1 es la primera línea
+
+soffice --headless --convert-to csv:"Text - txt - csv (StarCalc)":"59,34,76,1" -outdir /tmp/a test.ods
